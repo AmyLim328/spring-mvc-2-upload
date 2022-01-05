@@ -39,7 +39,6 @@ public class SpringUploadController {
             log.info("파일 저장 fullPath={}", fullPath);
             file.transferTo(new File(fullPath));
         }
-
         return "upload-form";
     }
 
